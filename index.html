@@ -1,0 +1,124 @@
+<html>
+<head>
+<style>
+
+
+body{
+
+width:100%;
+background-image:url("image/12.jpg");
+background-position:center;
+background-size:cover;
+height:100%;
+}
+
+.anaglyph{
+letter-spacing:6px;
+text-shadow:red 0 0, cyan 0 0;
+transition: text-shadow;
+}
+
+.anaglyph:hover{
+text-shadow:red -6px 0,cyan 6px 0;
+}
+nav{
+background-color:WHITE;
+display:grid;
+place-items: left;
+}
+nav ul{
+ list-style-type:none;
+}
+nav ul a{
+display: inline-block;
+padding:10px;
+text-decoration:none;
+color:#000;
+transition:0.2s ease-in;
+font-size:15px;
+}
+nav ul a:hover{
+background-color:ORANGE;
+color:gold;
+}
+
+
+.search{
+float: right;
+margin-right:50px;
+height: 35px;
+}
+.srch{
+font-family: 'Times New Roman';
+width: 200px;
+height: 35px;
+background:transparent;
+border: 1px solid #ff7200;
+margin-top:10px;
+color:#fff;
+border-right: none;
+font-size: 16px;
+float: left;
+padding: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 3px;
+
+}
+
+
+.btn{
+
+width: 100px;
+height:40px;
+background:#ff7200;
+border:2px solid #ff7200;
+margin-top: 5px;
+color:#fff;
+font-size: 15px;
+border-bottom-left-radius:5px;
+border-bottom-left-radius:5px;
+}
+
+
+
+.btn:focus{
+outline: none;
+}
+
+.search: focus{
+  outline: none;
+}
+
+.srch:focus{
+outline:none;
+}
+
+b{
+        text-align:center;
+        color:red;
+        font-style:arial;
+}
+  
+</style>
+</head>
+<div class="search">
+<input class="srch" type="search" name="" placeholder="type to text">
+<a href ="#"><button class="btn">search</button></a>
+</div>
+
+<body>
+<nav>
+<ul>
+<a href="index.html"><li>HOME</li></a>
+<a href="new.html"><li>PRODUCT'S</li></a>
+<a href="about us.html"><li>ABOUT US</li></a>
+<a href="contact us.html"><li>CONTACT US</li></a>
+<a href="feedback.html"><li>FEEDBACK</li></a>
+</ul>
+</nav>
+<center>
+<div class="anaglyph">
+<h1>Saraswati Spices</h1>
+</div></center>
+</body>
+</html>
